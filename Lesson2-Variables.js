@@ -1,9 +1,9 @@
 
 //variabled declared with var can be redeclared
 var rdeclareVar= 10;
-//console.log(rdeclareVar)
+ console.log(rdeclareVar)
 var rdeclareVar='abc'
-//console.log(rdeclareVar)
+console.log(rdeclareVar)
 
 //var can be initialized again
 var myInitialvar=45;
@@ -19,7 +19,7 @@ function exampleVar() {
   }
   exampleVar();
 
-//let can not be redeclared 
+//let can not be re declared 
 let myVal=5
 //let myVal=10 will show syntax error
 
