@@ -23,7 +23,7 @@ for(let lang of language)
 //shift() removes first element from array and returns it
 let fruit= fruitsArray.shift()
 console.log(fruit)
-//unshift() add element(s) at the starts af array
+//unshift() add element(s) at the start af array
 fruitsArray.unshift('watermelon', 'mango')
 //foreach() used to iteatae over an array
 fruitsArray.forEach(element => {
@@ -53,7 +53,7 @@ let anotherWords=['fine', 'sam']
 wordsArray=wordsArray.concat(anotherWords)
 console.log(wordsArray.concat('?'))
 
-//index of - returns the first occurance of an element
+//index of - returns the first occurrence of an element
 let colors=['red','green', 'white']
 let index=colors.indexOf('green')
 console.log(index)
@@ -62,4 +62,4 @@ console.log(colors.indexOf('green',colors.indexOf('green')+1))
 
 //includes returns true if multiples elements are passed then if if any one is found then it will retun true
 let nounArray=['boy','cat','elephant']
-console.log(nounArray.includes('elephant','diansour'));
+console.log(nounArray.includes('elephant','dinosaur'));

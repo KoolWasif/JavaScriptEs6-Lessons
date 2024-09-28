@@ -22,7 +22,7 @@ do{
 // Notes: myWords is a special type of varaiables called an array which will be coverd in detail in next lecture...
 //For now just assume it is a collection of same type values combined together like nouns/words in the below example.
 
-//please see image forloop variations.png for more clear understanding of diifrent variations of for loop discussed below
+//please see image for loop variations.png for more clear understanding of driftnet variations of for loop discussed below
 
 const myWords = ["car", "animal", "cart", "fan"];
 for (const word of myWords) {
