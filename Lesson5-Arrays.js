@@ -25,13 +25,43 @@ let fruit= fruitsArray.shift()
 console.log(fruit)
 //unshift() add element(s) at the start af array
 fruitsArray.unshift('watermelon', 'mango')
-//foreach() used to iteatae over an array
+
+//foreach() used to iterate over an array
+//REMEMBER !!!! forEach() works for arrays, not for objects.
 fruitsArray.forEach(element => {
     console.log(element)
 });
+//But consider the following code 
+const playersInfo = [
+    {
+      id: 1,
+      profile: {
+        playerName: 'Alice',
+        location: {
+          city: 'Moscow',
+          country: 'Russia'
+        }
+      }
+    },
+    {
+      id: 2,
+      profile: {
+        playerName: 'Tom',
+        location: {
+          city: 'Houston',
+          country: 'USA'
+        }
+      }
+    }  
+  ]
+  
+///REMEMBER!!! PLayersInfo not an object but rather an array of objects :) so we can use forLoop here
+  playersInfo.forEach((player)=>{
+  console.log(player.id)
+})
 
 //splice method
-let animals_Array= ['cat','diansour','camel']
+let animals_Array= ['cat','dinosaur','camel']
 animals_Array.splice(1,1,'elephant','lion');
 animals_Array.forEach(element=>{
     console.log(element)

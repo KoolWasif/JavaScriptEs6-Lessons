@@ -21,7 +21,7 @@ const personInfo={
 }
 
 const {personName,...otherInfo}=personInfo
-//Note we can't use foreach() here as for each forEach() works for arrays, not for objects.
+//Note we can't use foreach() here as forEach() works for arrays, not for objects.
 for(let key in otherInfo){
     console.log(otherInfo[key])
 }
