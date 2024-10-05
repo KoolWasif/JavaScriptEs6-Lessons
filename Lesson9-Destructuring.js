@@ -1,4 +1,5 @@
-// Destructuring in JavaScript is like taking apart a structured item (such as an array or object) and pulling out specific pieces that you want. It helps you easily extract values 
+// Destructuring in JavaScript is like taking apart a structured item (such as an array or object) and pulling out specific pieces that you want. 
+//It helps you easily extract values 
 // from arrays or properties from objects and store them into individual variables.
 const fruits= ['apple','orange','banana']
 const [firstFruit,secondFruit,thirdFruit]=fruits
@@ -51,3 +52,15 @@ const playerInfo={
 const {id,profile:{playerName,location:{country}}}=playerInfo
 console.log(id)
 console.log(country)
+
+rInfo={
+  id: 1,
+  profile: {
+    playerName: 'Alice',
+    location: {
+      city: 'Moscow',
+      country: 'Russia'
+    }
+  },
+ 
+}
