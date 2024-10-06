@@ -41,6 +41,7 @@ const player={
     playerName: 'Jimmy',
     age:36,
     country: 'Canada',
+    city:'Toronto'
 }
 export {player as p}
 
