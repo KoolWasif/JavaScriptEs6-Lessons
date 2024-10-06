@@ -38,3 +38,7 @@ for (const key in myUser) {
         const element = myUser[key];
         console.log(`user has ${key} ${element}`);
 }
+///Most easiest way to REMEMBER is:
+/// where there isa an array like array of numbers , array of words or even array of objects like in userdata.js
+//Simply use for of loop
+//where there is an object simply use for in loop 

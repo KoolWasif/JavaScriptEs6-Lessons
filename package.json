@@ -1,0 +1,23 @@
+{
+  "name": "javascriptes6-lessons",
+  "version": "1.0.0",
+  "description": "Javasscript lessons with notes",
+  "main": "Lesson10-typeOfOperator.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoolWasif/JavaScriptEs6-Lessons.git"
+  },
+  "keywords": [
+    "JSLesson"
+  ],
+  "author": "wasif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoolWasif/JavaScriptEs6-Lessons/issues"
+  },
+  "homepage": "https://github.com/KoolWasif/JavaScriptEs6-Lessons#readme"
+}

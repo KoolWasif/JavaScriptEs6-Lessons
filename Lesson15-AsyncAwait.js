@@ -40,14 +40,16 @@ async function additionFunction(num1, num2) {
   async function subtractionFunction(num1, num2) {
       setTimeout(() => {
         console.log(`Result of Subtraction is ${num1 - num2}`);
+        
       }, 1000);
     
   }
 
   //execute arithmetic operations  addition first then subtraction
   async function executeArithmeticOperations() {
-    additionFunction(10, 5)
-    subtractionFunction(10, 5)
+   await additionFunction(10, 5)
+   await subtractionFunction(10, 5)
   }
 
   executeArithmeticOperations()
+
